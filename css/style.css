@@ -1,0 +1,33 @@
+
+table{
+	border:2px solid green;
+	margin: 0 auto;
+	position:relative;
+	float:right;
+	height:30em;
+	width:30em;
+}
+.head{
+	height:50px;
+	width:200px;
+	font-family:Courier;
+	color:green;
+}
+table td{
+	border:2px solid green;
+	wsidth:50px;
+	hseight:50px;
+}
+td{
+
+}
+
+input{
+	height:4em;
+	width:8em;
+	font-size:20px;
+	background-color:yellow;
+}
+button-holder{
+	margin:100px;
+}
