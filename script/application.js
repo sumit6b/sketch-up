@@ -2,6 +2,7 @@ var row=1,col=1;
 
 $(document).ready(function(){
 	$('input').hide();
+	$('table').hide();
 	init();
 	draw();
 
@@ -24,6 +25,7 @@ var init = function(){
 		col = prompt("enter value for col less than 15");
 	}
 	$('input').fadeIn('slow');
+	$('table').fadeIn('slow');
 	//table creator:
 	var string="<tr>";
 	for(var i=0;i<row;i++){
@@ -39,7 +41,7 @@ var init = function(){
 var draw = function(){
 	//change css color property when mouse enters:
 	$('td').mouseenter(function(){
-		$(this).css("background-color", "blue");
+		$(this).css("background-color", "black");
 	});
 
 	$('#reset').click(function(){

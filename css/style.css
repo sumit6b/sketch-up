@@ -1,11 +1,12 @@
 
 table{
-	border:2px solid green;
+	border:2px solid gray;
 	margin: 0 auto;
 	position:relative;
 	float:right;
 	height:30em;
 	width:30em;
+	box-shadow: 0px 0px 50px #888888
 }
 .head{
 	height:50px;
@@ -14,7 +15,7 @@ table{
 	color:green;
 }
 table td{
-	border:2px solid green;
+	border:1px solid gray;
 	wsidth:50px;
 	hseight:50px;
 }
@@ -27,6 +28,7 @@ input{
 	width:8em;
 	font-size:20px;
 	background-color:yellow;
+	box-shadow: 0px 0px 20px #888888
 }
 button-holder{
 	margin:100px;
